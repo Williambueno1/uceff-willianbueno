@@ -10,3 +10,4 @@ RUN chmod +x /opt/run-httpd.sh
 EXPOSE 80
 
 CMD ["/opt/run-httpd.sh"]
+RUN yum -y install php
