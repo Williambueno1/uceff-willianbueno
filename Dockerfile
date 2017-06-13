@@ -1,7 +1,7 @@
 FROM centos
 
 RUN yum -y update
-RUN yum install -y nano vim net-tools php httpd
+RUN yum install -y nano vim net-tools php httpd wildfly
 
 ADD phpinfo.php /var/www/html/phpinfo.php
 
